@@ -1,22 +1,40 @@
+
+
 body{
 	margin: 0;
 	padding: 50;
 	display: inline-block;
 	font-family: sans-serif;
-	background-image: url("bg.jpeg");
+	background-image: url(bg.jpeg);
+	background-clip: padding-box;
 }
 
-
+p
+{
+margin-left: 450px;
+font-family: monospace;
+font-size: 30px;
+text-align: center;
+color: #F3FF00 ;
+border: solid;
+background-image: url("tbg.jpeg");
+border-color: #000FFF ;
+display: inline-block;
+border-style: double;
+border-width: 10px;
+font-variant: small-caps;
+}
 
 
 .box input[type = "button"]{
 	border: 0;
 	display: inline-block;
-	background: none;
+	background: #19015A ;
 	margin: 0px;
 	font-family: monospace;
 	text-align: center;
-	border:3px solid #001AF6 ;
+	border:3px #00AEFF ;
+	border-style: double;
 	font-size: 20px;
 	padding: 10px 30px;
 	outline: none;
@@ -27,8 +45,9 @@ body{
 }
 
 .box input[type = "button"]:hover{
-	border: #F67F00 ;
+	border: #0023FF  ;
+	border-style: double;
 	color: #250007 ;
 	font-size: 25px;
-	background: #F67F00 ;
+	background: #00FFE0  ;
 }
